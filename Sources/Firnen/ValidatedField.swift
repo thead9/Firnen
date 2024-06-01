@@ -32,11 +32,14 @@ public struct ValidatedField: ViewModifier {
   
   public enum InvalidNotice {
     case required
+    case number
     
     var displayName: String {
       switch self {
       case .required:
         "* Required"
+      case .number:
+        "Must be a number"
       }
     }
   }
