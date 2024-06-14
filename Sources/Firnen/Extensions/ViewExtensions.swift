@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  
+//  ViewExtensions.swift
 //
-//  Created by Thomas Headley on 4/26/24.
+//
+//  Created by Thomas Headley on 6/14/24.
 //
 
 import SwiftUI
@@ -12,3 +12,4 @@ public extension View {
     AnyView(self)
   }
 }
+
